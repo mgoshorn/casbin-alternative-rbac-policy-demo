@@ -1,0 +1,21 @@
+{
+  "include": ["src", "pdf.js.d.ts"],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "downlevelIteration": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "typeRoots": ["@types", "node_modules/@types"],
+    "types": ["node"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
+    "experimentalDecorators": true /* Enables experimental support for ES7 decorators. */,
+    "emitDecoratorMetadata": true /* Enables experimental support for emitting type metadata for decorators. */,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true /* Skip type checking of declaration files. */,
+    "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
+    "useUnknownInCatchVariables": false
+  }
+}
